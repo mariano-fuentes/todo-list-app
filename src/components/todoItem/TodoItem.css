@@ -1,0 +1,29 @@
+.todo-ctn {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px lightgrey;
+}
+.todo-item {
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+}
+.btn-ctn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  margin-left: auto;
+}
+
+.container {
+  background-color: white;
+}
+
+button > i {
+  pointer-events: none;
+}
